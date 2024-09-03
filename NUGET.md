@@ -16,6 +16,10 @@ Install-Package Comentsys.Assets.Flags
 
 ## Change Log
 
+### Version 1.1.0
+
+- Update for Comentsys.Toolkit
+
 ### Version 1.0.0
 
 - Initial Release
