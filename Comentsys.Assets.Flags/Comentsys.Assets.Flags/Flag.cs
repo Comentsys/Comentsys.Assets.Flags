@@ -1,7 +1,7 @@
 ﻿namespace Comentsys.Assets.Flags;
 
 /// <summary>
-/// Flags from Jakob Flierl, Curated by Lipis – License: MIT License
+/// Flags by Jakob Flierl and Lipis – License: MIT License
 /// </summary>
 public class Flag : AssetBase<Flag>
 {
@@ -27,4 +27,12 @@ public class Flag : AssetBase<Flag>
     /// <returns>Asset Resource</returns>
     public static AssetResource Get(FlagSet set, FlagType type) =>
         new(AsStream(root, Path(set, type)) ?? new MemoryStream(), height, width);
+
+    /// <summary>
+    /// Get Asset Colors
+    /// </summary>
+    /// <param name="type">Flag Type</param>
+    /// <returns>Asset Colors</returns>
+    public static Color[] GetColors(FlagType type) => 
+        Helper.ToColors(AsString(root, Path(FlagSet.Rectangle, type))) ?? [];
 }

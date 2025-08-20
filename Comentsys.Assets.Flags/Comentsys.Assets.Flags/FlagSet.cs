@@ -2,7 +2,7 @@
 
 /// <summary>
 /// Flag Set
-/// Flags from Jakob Flierl, Curated by Lipis – License: MIT License
+/// Flags by Jakob Flierl and Lipis – License: MIT License
 /// </summary>
 public enum FlagSet
 {

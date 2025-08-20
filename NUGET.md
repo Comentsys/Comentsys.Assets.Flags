@@ -1,6 +1,6 @@
 # Comentsys.Assets.Flags
 
-**Comentsys.Assets.Flags** is an **Asset Resource** in **.NET Standard** for  **Flags** for all **Countries** in the **World** available from [github.com/lipis/flag-icons](https://github.com/lipis/flag-icons) and curated by [github.com/koppi](https://github.com/koppi) and uses **Comentsys.Toolkit**.
+**Comentsys.Assets.Flags** is an **Asset Resource** in **.NET Standard** for **Flags** for all **Countries** in the **World** available from [github.com/lipis/flag-icons](https://github.com/lipis/flag-icons) originally curated by [github.com/koppi](https://github.com/koppi) and uses **Comentsys.Toolkit**.
 
 ## Documentation and Source Code
 
@@ -15,6 +15,10 @@ Install-Package Comentsys.Assets.Flags
 ```
 
 ## Change Log
+
+### Version 2.0.0
+
+- Add Flag Metadata and Update for New / Fixed Flags
 
 ### Version 1.1.0
 
